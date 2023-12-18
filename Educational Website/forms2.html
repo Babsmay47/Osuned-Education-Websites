@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <h1>
+        <a href="index.html" target="_blank">Student Registration Form Using Forms in HTML</a>
+    </h1>
+    <div>
+        <form>
+            <div>
+                <label for="firstname">
+                    Firstname:
+                </label>
+                <input type="text" name="firstname" id="firstname" placeholder="Firstname">
+            </div>
+            <div>
+                <label for="lastname">
+                    Lastname:
+                </label>
+                <input type="text" name="lastname" id="lastname" placeholder="lastname">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email-address" id="email">
+            </div>
+            <div>
+                <label for="mobile-no">Mobile No</label>
+                <input type="number" name="mobile-no" id="mobile-no">
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="male" id="gender"><span>male</span>
+                <input type="radio" name="gender" value="female" id="gender"><span>female</span>
+            </div>
+            <div>
+                <label for="title">Title</label>
+                <input type="radio" name="title" value="mr" id="title"><span>Mr.</span>
+                <input type="radio" name="title" value="mrs" id="title"><span>Mrs.</span>
+                <input type="radio" name="title" value="miss" id="title"><span>Miss.</span>
+                <input type="radio" name="title" value="phd" id="title"><span>Phd.</span>
+            </div>
+            <div>
+                <label for="dob">DOB:</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <textarea name="address" id="address" minlength="20"></textarea>
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" maxlength="50">
+            </div>
+            <div>
+                <label for="cities">Cities</label>
+                <select name="cities" id="cities">
+                    <option value="osogbo">Osogbo</option>
+                    <option value="ibadan">Ibadan</option>
+                    <option value="lagos">Lagos</option>
+                </select>
+            </div>
+            <div>
+                <label for="hobbies">Hobbies</label>
+                <input type="checkbox" value="dancing" name="hobbies" id="hobbies"><span>Dancing</span>
+                <input type="checkbox" value="singing" name="hobbies" id="hobbies"><span>Singing</span>
+                <input type="checkbox" value="drawing" name="hobbies" id="hobbies"><span>Drawing</span>
+                <input type="checkbox" value="reading" name="hobbies" id="hobbies"><span>Reading</span>
+                <input type="checkbox" value="playing" name="hobbies" id="hobbies"><span>Playing</span>
+            </div>
+            <div>
+                <label for="ratings">Rate Us</label>
+                <input type="range" value="0" step="10">
+            </div>
+            <div>
+                <label for="upload">Upload your file</label>
+                <input type="file" name="upload" id="upload" accept=".jpg">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

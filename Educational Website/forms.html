@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First project</title>
+</head>
+<body>
+    <h1 style="color:blue; text-decoration:underline;text-align:center;">Student Registration Form Using Forms in HTML</h1>
+    <div style="padding: 20px; background-color: aqua;">
+    <form>
+        <label for="firstname" > First Name</label>
+        <input type="text" name="firstname" maxlength="50" placeholder="Firstname" id="firstname"><span>(Max 50 Characters Allowed)</span><br>
+        
+        <label for="lastname"> Last Name</label>
+        <input type="text" name="lastname" maxlength="50" id="lastname"><span>(Max 50 Characters Allowed)</span><br>
+        <br>
+        <label for="email"> Email ID</label>
+        <input type="email" name="Email-ID" id="email"><br>
+        <br>
+        <label for="mobile-no">Mobile No</label>
+        <input type="number" name="Mobile No" id="mobile-no"><span>(10 digit Allowed)</span><br>
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="male" id="gender"><span>male</span>
+        <input type="radio" name="gender" value="female" id="gender"><span>female</span><br>
+        <br>
+        <label for="title">Title:</label>
+        <label for="Mr">Mr.</label>
+        <input type="radio" value="Mr." id="Mr" name="title">
+        <label for="Mrs">Mrs.</label>
+        <input type="radio" value="Mrs." id="Mrs" name="title">
+        <label for="Miss">Miss.</label>
+        <input type="radio" value="Miss." id="Miss" name="title">
+        <label for="Phd">Phd.</label>
+        <input type="radio" value="Phd." id="Phd" name="title">
+        <br>
+        <label>Date of Birth (DOB)</label>
+        <input type="date" name="DOB"><br>
+        <br>
+        <label for="address">Address</label> 
+        <textarea name="address" id="address"></textarea><br>
+        <br>
+        <label for="city">City</label>
+        <input type="text" name="city" maxlength="50" id="city"><span>(Max 50 Characters Allowed)</span><br>
+        <br>
+        <label for="pincode">Pin Code</label>
+        <input type="number" name="pin code" maxlength="6" id="pincode"><span>(Max 6 Numbers Allowed)</span><br>
+        <br>
+        <label for="state">State</label>
+        <input type="text" name="state" maxlength="50" id="state"><span>(Max 50 Characters Allowed)</span><br>
+        <br>
+        <label for="country"> Country</label>
+        <input type="text" name="country" id="country"><br>
+        <br>
+        <label for="hobbies">Hobbies</label>
+        <input type="checkbox" name="hobbies" value="drawing"><span>Drawing</span>
+        <input type="checkbox" name="hobbies" value="singing"><span>Singing</span>
+        <input type="checkbox" name="hobbies" value="dancing"><span>Dancing</span>
+        <input type="checkbox" name="hobbies" value="sketching"><span>Sketching</span>
+        <input type="checkbox" name="hobbies" value="others"><span>Others</span> <input type="text" placeholder="Teaching" maxlength="50"> <span>(Max 50 Characters Allowed)</span><br>
+        <br>
+        <label>Qualification</label>
+        <input type="checkbox" name="qualification" value="high school"><span>High School (10th)</span>
+        <input type="checkbox" name="qualification" value="higher school"><span>Higher School(12th)</span>
+        <input type="checkbox" name="qualification" value="graduation(bachelor)"><span>Graduation(Bachelor)</span>
+        <input type="checkbox" name="qualification" value="post graduation(masters)"><span>Post Graduation(Master)</span>
+        <input type="checkbox" name="qualification" value="phd"><span>Phd</span><br>
+        <br>
+        <label>Courses Applied For</label>
+        <input type="radio" name="Courses Applied For" value="bachelor of computer appication "><span>BCA(Bachelor Of Computer Application)</span>
+        <input type="radio" name="Courses Applied For" value="B.Com(Bachelor of Commerce"><span>B.Com(Bachelor of Commerce)</span>
+        <input type="radio" name="Courses Applied For" value="B.SC(Bachelor of Science)"><span>B.SC(Bachelor of Science)</span>
+        <input type="radio" name="Courses Applied For" value="B.SC(Bachelor of Art)"><span>BA(Bachelor of Art)</span>
+        <input type="radio" name="Courses Applied For" value="MCA(Master Of Computer Application)"><span>MCA(Master Of Computer Application)</span>
+        <input type="radio" name="Courses Applied For" value="M.Com(Master of Commerce)"><span>M.Com(Master of Commerce)</span>
+        <input type="radio" name="Courses Applied For" value="M.SC(Master of Science)"><span>M.SC(Master of Science)</span>
+        <input type="radio" name="Courses Applied For" value="MA(Master of Art)"><span>MA(Master of Art)</span><br>
+        <br>
+        <label for="payment">Payment:</label>
+        <select id="payment" >
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="giftcard">Giftcard</option>
+            <option value="check">Check</option>
+        </select>
+        <br>
+        <label for="slider">Rate us:</label>
+        <span>1</span><input type="range" step="25" value="0"><span>5</span>
+        <br>
+        <label for="myfile">upload a file:</label>
+        <input type="file" id="myfile" name="myfile" accept=".pdf">
+        <br>
+        <button type="submit">Submit</button>
+        <button>Reset</button>
+    </form>
+</div>
+</body>
+</html>
